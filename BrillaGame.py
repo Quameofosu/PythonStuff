@@ -79,7 +79,8 @@ trueOrFalse_quest = [
     "Two plus minus three is equal to two square of the square root of minus one. True or False?\nYour Answer: ",
     "UG-Legon is 75 Years. True or False?\nYour Answer: ",
     "Morroco is in Europe. True or False?\nYour Answer: ",
-    "Ubuntu means 'I am because we are'. True or False?\nYour Answer: "
+    "Ubuntu means 'I am because we are'. True or False?\nYour Answer: ",
+    "A female chicken is called Cock. True or False?\nYour Answer: "
 ]
 
 trueOrFalse_answers = [
@@ -88,7 +89,8 @@ trueOrFalse_answers = [
     'True',
     'True',
     'False',
-    'True']
+    'True',
+    'False']
 
 
 def trueFalse(quantity):
