@@ -1,6 +1,16 @@
-## Hello World
+## My First Markdown Boilerplate, Haha😂  
+### Credits to [ChristianLempa](https://github.com/ChristianLempa) on GitHub  
+---
+All rights reserved. No part of this book shall be __reproduced__, __stored in a retrieval system__, or 
+__transmitted by any means__, __electronic__, __mechanical__, __photocopying__, __recording__, or otherwise, without 
+written permission from the publisher. *No patent liability is assumed with respect to the use of 
+the information contained herein.* Although every precaution has been taken in the preparation of 
+this book, the publisher and author assume no responsibility for errors or omissions. Nor is any 
+liability assumed for damages resulting from the use of the information contained herein.  
 
-Image with alt text: ![alt-text](https://camo.githubusercontent.com/4d89cd791580bfb19080f8b0844ba7e1235aa4becc3f43dfd708a769e257d8de/68747470733a2f2f636e642d70726f642d312e73332e75732d776573742d3030342e6261636b626c617a6562322e636f6d2f6e65772d62616e6e6572342d7363616c65642d666f722d6769746875622e6a7067)  
+---
+
+Image with alt text: ![QuantumComputer](https://qiskit.org/documentation/_images/depth.gif)  
 
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
