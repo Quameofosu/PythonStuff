@@ -1,3 +1,7 @@
 print("Hello World")
 print("========================")
 print(True and True)
+print("-------------Brilla Questions Game-------------\nDeveloped by Manuel Ofosu Copyright@12/12/2022")
+print('-----------------------------------------------')
+print('-----------------------------------------------')
+print("We Wish You GodSpeed!")
