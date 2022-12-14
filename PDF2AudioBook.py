@@ -1,14 +1,21 @@
 import PyPDF2
 import pyttsx3
+
 pdfReader = PyPDF2.PdfFileReader(open('PDF_file.pdf', 'rb'))
-speaker = pyttsx3.init()
+engine = pyttsx3.init() #initialize the TTS engine
+
+rate = engine.getProperty('rate')   # getting details of current speaking rate
+print (rate)                        #printing current voice rate
+engine.setProperty('rate', 125)     # setting up new voice rate
+voices = engine.getProperty('voices')  #getting details of current voice
+engine.setProperty('voice', voices[1].id) #Changes voice to female
+
 
 for page_num in range(pdfReader.numPages):
     text = pdfReader.getPage(page_num).extractText()
-    speaker.say(text)
-    speaker.runAndWait()
-speaker.stop()
+    engine.say(text)
+    engine.runAndWait()
+engine.stop()
 
-engine = pyttsx3.init()
 engine.save_to_file(text, 'audio.mp3')
 engine.runAndWait()
