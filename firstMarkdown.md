@@ -17,7 +17,44 @@ Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-Combined emphasis with **asterisks and _underscores_**.
+Qiskit code for **Bernstein Vazirani Algorithm**.  
+
+```python
+def bernstein_vazirani(string):
+    
+    # Save the length of string
+    string_length = len(string)
+    
+    # Make a quantum circuit
+    qc = QuantumCircuit(string_length+1, string_length)
+    
+    # Initialize each input qubit to apply a Hadamard gate and output qubit to |->
+    
+    qc.x(string_length)
+    qc.h(string_length)
+    qc.h(range(string_length))
+    
+    qc.barrier()
+    
+    # Apply an oracle for the given string
+    # Note: In Qiskit, numbers are assigned to the bits in a string from right to left
+    
+    for ii, yesno in enumerate(reversed(string)):
+        if yesno == "1":
+            qc.cx(ii, string_length)
+    qc.barrier()
+    
+    # Apply Hadamard gates after querying the oracle
+    qc.h(range(string_length))
+    qc.barrier()
+    
+    # Measurement
+    qc.measure(range(string_length), range(string_length))
+    
+    
+    
+    return qc
+```
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
