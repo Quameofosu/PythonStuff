@@ -10,7 +10,7 @@ liability assumed for damages resulting from the use of the information containe
 
 ---
 
-Image with alt text: ![QuantumComputer](https://qiskit.org/documentation/_images/depth.gif)  
+Image with alt text:  ![QuantumComputer](https://qiskit.org/documentation/_images/depth.gif)  
 
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
