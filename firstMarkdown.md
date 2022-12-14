@@ -123,3 +123,9 @@ But let's throw in a tag.
 [ ] Contact the user  
 
 
+### __Appreciations__
+: 
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.

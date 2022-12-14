@@ -8,7 +8,7 @@ rate = engine.getProperty('rate')   # getting details of current speaking rate
 print(rate)                         # printing current voice rate
 engine.setProperty('rate', 210)     # setting up new voice rate
 voices = engine.getProperty('voices')  # getting details of current voice
-engine.setProperty('voice', voices[1].id)  # Changes voice to female
+engine.setProperty('voice', voices[0].id)  # Changes voice to female
 
 
 for page_num in range(pdfReader.numPages):
