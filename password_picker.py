@@ -1,7 +1,7 @@
+from pyqrcode import QRCode
 import random
 import string
 import pyqrcode
-from pyqrcode import QRCode
 #import webbrowser
 
 adjectives = ['slpy', 'sxlw', 's+mly', 'w.et', 'fVat',
