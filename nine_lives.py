@@ -6,7 +6,8 @@ print('-----------------------------------------------')
 print('-----------------------------------------------')
 
 lives = 9
-words = ['pizza', 'fairy', 'teeth', 'shirt', 'otter', 'plane']
+words = ['pizza', 'fairy', 'teeth', 'shirt',
+         'otter', 'plane', 'brush', 'horse', 'light']
 secret_word = random.choice(words)
 clue = list('?????')
 heart_symbol = u'\u2764'
