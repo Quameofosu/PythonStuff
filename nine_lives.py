@@ -1,9 +1,9 @@
 import random
+
 print("-------------Nine Lives Challenge Game-------------")
 print("Developed by Manuel Ofosu Copyright@15/12/2022")
 print('-----------------------------------------------')
 print('-----------------------------------------------')
-
 
 lives = 9
 words = ['pizza', 'fairy', 'teeth', 'shirt', 'otter', 'plane']
@@ -22,8 +22,8 @@ def update_clue(guessed_letter, secret_word, clue):
             clue[index] = guessed_letter
         index = index + 1
 
-# Keep asking the user to guess untill they run out of lives
 
+# Keep asking the user to guess untill they run out of lives
 
 while lives > 0:
     print(clue)
