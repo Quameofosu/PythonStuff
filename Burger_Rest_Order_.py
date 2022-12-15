@@ -8,5 +8,5 @@ answer_num = [1, 2, 3, 4, 5, 6]
 while True:
     user_input = input(
         'What kind of Burger and burn do you want?\nYour Answer: ')
-    continue
-print
+    break
+print('Heelo Me')
