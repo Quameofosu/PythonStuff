@@ -13,7 +13,8 @@ liability assumed for damages resulting from the use of the information containe
 
 ---
 
-Image with alt text:  ![QuantumComputer](https://qiskit.org/documentation/_images/depth.gif)  
+Image with alt text:  
+![QuantumComputer](https://qiskit.org/documentation/_images/depth.gif)  
 
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -63,7 +64,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 __BIGGER__ ~~THAN~~ __AND__ __BETTER__  
 
-Image without alt text: ![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freelancer.com%2Fu%2Fmozumder007&psig=AOvVaw0-rji9ke-ydqDKLP04PkO2&ust=1671233445655000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJD8mvbj_PsCFQAAAAAdAAAAABAR)
+Image without alt text:  
+![](https://upload.wikimedia.org/wikipedia/commons/5/50/KiCad_V6_PCB_Full_View.png)
 
 __*LINK NEVER BEFORE*__  
 
@@ -86,7 +88,8 @@ Link with text: [My Email](https://www.gmai.com/quameofosuemma@gmail.com)
 Inline `code` has `back-ticks around` it.  
 Then type `print("Hello World")` in the next cell  
 
-Check out A KiCAD board he rendered in Blender below:  ![Quantum Circuit](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/133449391/original/7049eccda8469a83e1d7596a3918c6de6d18616c/do-realistic-renderings-of-your-pcb.png)  
+Check out A KiCAD board he rendered in Blender below:  
+![Quantum Circuit](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/133449391/original/7049eccda8469a83e1d7596a3918c6de6d18616c/do-realistic-renderings-of-your-pcb.png)  
 
 
 ``` python  
@@ -110,6 +113,61 @@ But let's throw in a tag.
 |---|---|---|
 | col1 | col2 | col3 |
 | col1 | col2 | col3 |  
+
+
+``` python  
+import random
+
+print("-------------Nine Lives Challenge Game-------------")
+print("Developed by Manuel Ofosu Copyright@15/12/2022")
+print('-----------------------------------------------')
+print('-----------------------------------------------')
+
+lives = 9
+words = ['pizza', 'fairy', 'teeth', 'shirt',
+         'otter', 'plane', 'brush', 'horse', 'light']
+secret_word = random.choice(words)
+clue = list('?????')
+heart_symbol = u'\u2764'
+guessed_word_correctly = False
+
+# Function to Update clue
+
+
+def update_clue(guessed_letter, secret_word, clue):
+    index = 0
+    while index < len(secret_word):
+        if guessed_letter == secret_word[index]:
+            clue[index] = guessed_letter
+        index = index + 1
+
+
+# Keep asking the user to guess untill they run out of lives
+
+while lives > 0:
+    print(clue)
+    print('lives left: ' + heart_symbol * lives)
+    guess = input('Guess a letter or the whole word: ')
+
+    if guess == secret_word:
+        guessed_word_correctly = True
+        break
+
+    if guess in secret_word:
+        update_clue(guess, secret_word, clue)
+    else:
+        print('Incorrect. You lose a life')
+        lives = lives - 1
+
+# Determine if player won or lost
+
+if guessed_word_correctly:
+    print('You won! The secret word was ' + secret_word)
+else:
+    print('You lost! The secret word was ' + secret_word)
+
+```
+
 
 | Semester 1 | Semester 2 | Semester 3 |  
 |---|---|---|  
