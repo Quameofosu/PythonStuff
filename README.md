@@ -63,7 +63,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 __BIGGER__ ~~THAN~~ __AND__ __BETTER__  
 
-Image without alt text: ![](https://camo.githubusercontent.com/4d89cd791580bfb19080f8b0844ba7e1235aa4becc3f43dfd708a769e257d8de/68747470733a2f2f636e642d70726f642d312e73332e75732d776573742d3030342e6261636b626c617a6562322e636f6d2f6e65772d62616e6e6572342d7363616c65642d666f722d6769746875622e6a7067)
+Image without alt text: ![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freelancer.com%2Fu%2Fmozumder007&psig=AOvVaw0-rji9ke-ydqDKLP04PkO2&ust=1671233445655000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJD8mvbj_PsCFQAAAAAdAAAAABAR)
 
 __*LINK NEVER BEFORE*__  
 
