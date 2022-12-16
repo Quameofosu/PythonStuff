@@ -14,7 +14,7 @@ liability assumed for damages resulting from the use of the information containe
 ---
 
 Image with alt text:  
-![QuantumComputer](https://qiskit.org/documentation/_images/depth.gif)  
+![KiCAD Image](https://repository-images.githubusercontent.com/256938513/f21ca700-fada-11ea-9bb9-10a6ea72efbe)  
 
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -168,6 +168,7 @@ else:
 
 ```
 
+![KiCAD Image](https://i.ytimg.com/vi/C7-8nUU6e3E/maxresdefault.jpg)
 
 | Semester 1 | Semester 2 | Semester 3 |  
 |---|---|---|  
