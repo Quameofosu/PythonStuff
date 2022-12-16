@@ -24,8 +24,20 @@ def update_clue(guessed_letter, secret_word, clue):
         index = index + 1
 
 
-# Keep asking the user to guess untill they run out of lives
+# Add difficult levels
+difficulty = input(
+    'Choose difficult (type 1, 2 or 3):\n 1. Easy\n 2. Normal\n 3. Hard\n')
+difficulty = int(difficulty)
 
+if difficulty == 1:
+    lives = 12
+elif difficulty == 2:
+    lives = 9
+else:
+    lives = 6
+
+
+# Keep asking the user to guess untill they run out of lives
 while lives > 0:
     print(clue)
     print('lives left: ' + heart_symbol * lives)
