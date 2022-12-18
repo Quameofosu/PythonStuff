@@ -6,7 +6,7 @@ answer_num = [1, 2, 3, 4, 5, 6]
 print("----------This is our Menu----------")
 print("1. Regular\n2. Glutten-free\n3. Veggie\n4. Impossible burger\n5. Royale\n6. Vegan-Only\n\nType Numbers Only")
 
-
+heart_symbol = u'\u2764 '
 user_input = input(
         'What kind of Burger and burn do you want?\nYour Answer: ')
 
@@ -16,7 +16,17 @@ while True:
             print("You selected {}".format(user_input))
         break
     except ValueError:
-        print("Please Enter a Number")
+        while True:
+            user_input = input(
+        'What kind of Burger and burn do you want?\nYour Answer: ')
+            try:
+                if int(user_input) in answer_num:
+                    print("{} Hurray, you made it".format(heart_symbol))
+                break
+            except ValueError:
+                print("Try Again, Enter a Number")
+                break
+        
 
 
 print('Heello Me')
