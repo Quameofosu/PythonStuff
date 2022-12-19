@@ -10,10 +10,14 @@ heart_symbol = u'\u2764 '
 user_input = input(
         'What kind of Burger and burn do you want?\nYour Answer: ')
 
+
+"""
+
 while True:
     try:
         if int(user_input) in answer_num:
-            print("You selected {}".format(user_input))
+            break
+            #print("You selected {}".format(user_input))
         break
     except ValueError:
         while True:
@@ -26,7 +30,19 @@ while True:
             except ValueError:
                 print("Try Again, Enter a Number")
                 break
+
+
+"""
+
         
+while True:
+    text = input("Please enter a text between 1 and 6: ")
+    if text.isdigit() and 1 <= int(text) <= 6:
+        # This text is a valid number between 1 and 6
+        break
+    else:
+        #The text is not a valid number between 1 and 6
+        print("Invalid input. Please try again.")
 
 
 print('Heello Me')
