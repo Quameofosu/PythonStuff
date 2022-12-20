@@ -2,7 +2,8 @@
 A repository of all I've been learning about Python and Version Control using GitHub
 
 ## My First Markdown Boilerplate, Haha😂  
-### Credits to [ChristianLempa](https://github.com/ChristianLempa) on GitHub  
+### Credits to [ChristianLempa](https://github.com/ChristianLempa) on GitHub 
+![Compile](https://github.com/mobizt/Firebase-ESP8266/actions/workflows/compile_library.yml/badge.svg) ![Examples](https://github.com/mobizt/Firebase-ESP8266/actions/workflows/compile_examples.yml/badge.svg) [![Github Stars](https://img.shields.io/github/stars/mobizt/Firebase-ESP8266?logo=github)](https://github.com/mobizt/Firebase-ESP8266/stargazers) ![Github Issues](https://img.shields.io/github/issues/mobizt/Firebase-ESP8266?logo=github)
 ---
 All rights reserved. No part of this book shall be __reproduced__, __stored in a retrieval system__, or 
 __transmitted by any means__, __electronic__, __mechanical__, __photocopying__, __recording__, or otherwise, without 
